@@ -1,9 +1,12 @@
-import { extendTheme } from "@chakra-ui/react";
+import { theme, extendTheme } from "@chakra-ui/react";
 
 const config = {
     initialColorMode: "light",
     useSystemColorMode: false
 };
-
-const myTheme = extendTheme({ config });
+const fonts = {
+    ...theme.fonts,
+    heading: "Caramel, sans-serif"
+};
+const myTheme = extendTheme({ config, fonts });
 export default myTheme;
