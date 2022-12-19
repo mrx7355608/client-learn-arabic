@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env
+
+# Replit
+replit.nix
+.replit
