@@ -4,10 +4,8 @@ import AuthProvider from "./Contexts/AuthContext";
 
 // Pages
 import Welcome from "./Pages/Welcome";
-import Login from "./Pages/Login";
-import Register from "./Pages/Register";
-// const Login = React.lazy(() => import("./Pages/Login"));
-// const Register = React.lazy(() => import("./Pages/Register"));
+const Login = React.lazy(() => import("./Pages/Login"));
+const Register = React.lazy(() => import("./Pages/Register"));
 // Layouts
 import FormLayout from "./Layouts/FormLayout";
 import MainLayout from "./Layouts/MainLayout";
