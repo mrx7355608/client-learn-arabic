@@ -4,7 +4,7 @@ import { Box, Text, Input, Button, FormControl, FormHelperText } from "@chakra-u
 export default function LoginForm() {
     return (
         <form>
-            <Box mt="4">
+            <Box>
                 <FormControl>
                     <Input variant="filled" pt="1" type="email" placeholder="Email address" />
                     <FormHelperText></FormHelperText>
