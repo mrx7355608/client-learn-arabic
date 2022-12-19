@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Input, Button, FormControl, FormLabel, FormHelperText } from "@chakra-ui/react";
+import { Box, Flex, Input, Button, FormControl, FormHelperText } from "@chakra-ui/react";
 
 export default function RegisterationForm() {
     return (
