@@ -10,13 +10,10 @@ export default function AuthProvider({ children }) {
     const initialAuthState = {
         user: {},
         error: {},
-        loading: false,
+        loading: false
     };
 
-    const [authState, authDispatcher] = useReducer(
-        authReducer,
-        initialAuthState
-    );
+    const [authState, authDispatcher] = useReducer(authReducer, initialAuthState);
 
     return (
         <AuthContext.Provider value={{ authState, authDispatcher }}>

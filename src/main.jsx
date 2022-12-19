@@ -8,9 +8,7 @@ import AuthProvider from "./Contexts/AuthContext";
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
         <ChakraProvider theme={myTheme}>
-            <ColorModeScript
-                initialColorMode={myTheme.config.initialColorMode}
-            />
+            <ColorModeScript initialColorMode={myTheme.config.initialColorMode} />
             <AuthProvider>
                 <App />
             </AuthProvider>
