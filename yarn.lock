@@ -1213,6 +1213,11 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@fontsource/caramel@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/caramel/-/caramel-4.5.8.tgz#34ce212ab81c632f8f4749e468ca87eb6adc8dd5"
+  integrity sha512-iPquXJDL+y93eJLlRDvEpciK+FcNBtyDJmB5MZhcPkOJJdwgZNT+q+jc6j4oqEuNo3xwuwvR/Sxgrel/SqiJlA==
+
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.8.tgz#03595ac2075a4dc0f191cc2131de14fbd7d410b9"
