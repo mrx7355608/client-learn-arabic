@@ -1,0 +1,8 @@
+body {
+    background: rgb(239, 247, 255) !important;
+}
+main {
+    min-height: 100vh;
+    margin-top: 60px;
+    padding: 10px;
+}
