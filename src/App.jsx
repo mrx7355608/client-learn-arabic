@@ -1,9 +1,10 @@
 import React from "react";
-import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AuthProvider from "./Contexts/AuthContext";
 
 // Pages
 import Welcome from "./Pages/Welcome";
+const Admin = React.lazy(() => import("./Pages/Admin"));
 const Login = React.lazy(() => import("./Pages/Login"));
 const Register = React.lazy(() => import("./Pages/Register"));
 // Layouts
@@ -17,6 +18,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<MainLayout />}>
                         <Route index element={<Welcome />} />
+                        <Route path="admin" element={<Admin />} />
                     </Route>
                     <Route path="auth" element={<FormLayout />}>
                         <Route path="login" element={<Login />} />
