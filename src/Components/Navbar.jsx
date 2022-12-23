@@ -8,7 +8,8 @@ export default function Navbar() {
         <Flex
             pos="fixed"
             top="0"
-            bg="whiteAlpha.400"
+            bg="whiteAlpha.600"
+            zIndex="20000"
             backdropFilter="blur(2px)"
             justifyContent={{ base: "space-between", lg: "space-around" }}
             alignItems="center"
@@ -61,8 +62,23 @@ export default function Navbar() {
                         Login
                     </Text>
                 </Link>
+                <Link to="/admin">
+                    <Text
+                        _hover={{
+                            color: "teal.500"
+                        }}
+                        fontWeight="300"
+                        fontSize="sm"
+                        color="gray.600">
+                        Admin
+                    </Text>
+                </Link>
                 <Link to="/auth/login">
                     <Button
+                        _hover={{
+                            bg: "teal.500",
+                            color: "white"
+                        }}
                         border="2px"
                         rounded="full"
                         borderColor="teal.500"
